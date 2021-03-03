@@ -1,0 +1,21 @@
+{
+    "name": "skora/sitemap-xml",
+    "description": "Create xml sitemaps",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2",
+        "ext-dom": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skora\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Skora\\Tests\\": "tests/"
+        }
+    }
+}
